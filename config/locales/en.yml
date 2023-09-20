@@ -225,3 +225,6 @@ en:
   back_to_all: "Back to %{obj}"
   editing: "Editing %{obj}"
 
+  success_create_msg: "%{obj} was successfully created!!"
+  success_update_msg: "%{obj} was successfully updated!!"
+  success_destroy_msg: "%{obj} was successfully destroyed!!"

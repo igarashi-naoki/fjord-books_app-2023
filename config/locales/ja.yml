@@ -190,3 +190,7 @@ ja:
 
   back_to_all: "%{obj}に戻る"
   editing: "%{obj}を編集中"
+
+  success_create_msg: "%{obj}の作成に成功しました!!"
+  success_update_msg: "%{obj}の更新に成功しました!!"
+  success_destroy_msg: "%{obj}の削除に成功しました!!"
