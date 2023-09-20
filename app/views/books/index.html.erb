@@ -2,6 +2,9 @@
 
 <h1><%= t('books') %></h1>
 
+<%= link_to "English", url_for(locale: :en) %>
+<%= link_to "日本語", url_for(locale: :ja) %>
+
 <div id="books" class="index-items">
   <% @books.each do |book| %>
     <div class="index-item">
