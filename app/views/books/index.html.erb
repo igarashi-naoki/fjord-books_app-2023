@@ -10,12 +10,12 @@
     <div class="index-item">
       <%= render book %>
       <p>
-        <%= link_to t('show', obj: t('book', scope: [:activerecord, :models])), book %>
+        <%= link_to t('show', obj: Book.model_name.human), book %>
       </p>
     </div>
   <% end %>
 </div>
 
 <nav class="page-nav">
-  <%= link_to t('new', obj: t('book', scope: [:activerecord, :models])), new_book_path %>
+  <%= link_to t('new', obj: Book.model_name.human), new_book_path %>
 </nav>

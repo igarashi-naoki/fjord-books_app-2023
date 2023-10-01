@@ -1,4 +1,4 @@
-<h1><%= t('new', obj: t('book', scope: [:activerecord, :models])) %></h1>
+<h1><%= t('new', obj: Book.model_name.human) %></h1>
 
 <%= render "form", book: @book %>
 

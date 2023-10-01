@@ -5,8 +5,8 @@
 </div>
 
 <nav class="page-nav">
-  <%= link_to t('edit', obj: t('book', scope: [:activerecord, :models])), edit_book_path(@book) %> |
+  <%= link_to t('edit', obj: Book.model_name.human), edit_book_path(@book) %> |
   <%= link_to t('back_to_all', obj: t('books')), books_path %>
 
-  <%= button_to t('destroy', obj: t('book', scope: [:activerecord, :models])), @book, method: :delete %>
+  <%= button_to t('destroy', obj: Book.model_name.human), @book, method: :delete %>
 </nav>
