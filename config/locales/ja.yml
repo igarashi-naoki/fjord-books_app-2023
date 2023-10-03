@@ -1,0 +1,25 @@
+---
+ja:
+  activerecord:
+    models:
+      book: 本  #g
+
+    attributes:
+      book:
+        author: 著者  #g
+        memo: メモ  #g
+        picture: 写真  #g
+        title: タイトル  #g
+
+  books: 本の一覧
+  show: "%{obj}の詳細を見る"
+  new: "%{obj}の新規作成"
+  edit: "%{obj}の編集"
+  destroy: "%{obj}の削除"
+
+  back_to_all: "%{obj}に戻る"
+  editing: "%{obj}を編集中"
+
+  success_create_msg: "%{obj}の作成に成功しました!!"
+  success_update_msg: "%{obj}の更新に成功しました!!"
+  success_destroy_msg: "%{obj}の削除に成功しました!!"
